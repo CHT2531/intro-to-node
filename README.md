@@ -16,7 +16,7 @@ if(num > 10){
 }
 ```
 * If you are using Windows you will probably be using PowerShell to issue commands. If you are a Mac user, you will need to use the Terminal.
->if you aren't familiar with using a Command Line Interface (CLI) you can find an [basic introduction here](../intro-to-using-a-cli.md).
+>if you aren't familiar with using a Command Line Interface (CLI) you can find an [basic introduction here](./intro-to-using-a-cli.md).
 * Using PowerShell navigate to the folder where you have saved *test.js* (or you can use the file explorer to navigate to the folder and then hold down shift and right-click the mouse, you should get an option saying open PowerShell). 
 * Using PowerShell enter the command:
 ```
