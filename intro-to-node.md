@@ -5,7 +5,8 @@ Node.js is a JavaScript runtime (software that can execute JavaScript code). Fir
 * After downloading Node.js, installation should be straightforward.
 
 ## A simple example
-In a text editor of your choice, create a new JavaScript file, name it test.js. Enter the following code:
+
+* In a text editor of your choice, create a new JavaScript file, name it test.js. Enter the following code:
 
 ```javascript
 console.log("Hello world");
@@ -14,7 +15,7 @@ if(num > 10){
     console.log(`${num} is bigger than 10`);
 }
 ```
-* If you are using Windows we will use PowerShell to issue commands. If you are a Mac user, you will need to use the Terminal. 
+* If you are using Windows you will probably be using PowerShell to issue commands. If you are a Mac user, you will need to use the Terminal. 
 * Using PowerShell navigate to the folder where you have saved *test.js* (or you can use the file explorer to navigate to the folder and then hold down shift and right-click the mouse, you should get an option saying open PowerShell). 
 * Using PowerShell enter the command  *node test.js*. You should see something like the following: 
 ```
@@ -24,22 +25,25 @@ Hello world
 ```
 * As you can see, we have executed JavaScript code without the use of a web browser. 
 
+This example is just to get the idea of executing JavaScript code outside a web browser, we won't actually need to write Node.js programs. Instead we will use programs (packages) that other people have written to help us build our web applications. 
+
 ## Node packages
-By itself Node.js is a bit limited. It becomes really useful for us through the use of packages. Packages are simply JavaScript programs that other people have written. Packages are used in two ways:
+Packages are used by front-end web developers in two ways:
 1. Some packages are command line tools that can help us when developing a website. 
 2. Some packages are simply libraries that we include in our projects e.g. there is a Leaflet package.
 
 ## Using a Node.js command line tool
-An example of a package we can use a command line tool is a Node.js version of Sass (https://www.npmjs.com/package/sass), that we can use to compile our Sass code. Using PowerShell enter the following command
+An example of a command line tool package is a Node.js version of Sass (https://www.npmjs.com/package/sass). We can use this to compile our Sass code. 
+* Using PowerShell enter the following command
 
 ```
 npm install -g sass
 ```
 
-> I have specifed -g here. This stands for global. The package will be installed globally i.e. the the sass compiler will be available anywhere on my machine not just in this project. 
+> I have specifed -g here. This stands for global. The package will be installed globally i.e. the sass compiler will be available anywhere on my machine not just in this project. 
 
 * In a text editor, from the sass folder open the *style.scss* file.
-* Make a change to the RGB values for one of the variables.
+* Make a change to the RGB values for one of the Sass variables.
 * Back in PowerShell enter the following:
 
 ```
