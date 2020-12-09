@@ -1,0 +1,10 @@
+$main-font: Arial, Helvetica, sans-serif;
+$bg-colour: rgb(200, 200, 0);
+$txt-colour: rgb(230, 100, 100);
+
+//variables
+body {
+  color: $txt-colour;
+  font-family: $main-font;
+  background-color: $bg-colour;
+}
